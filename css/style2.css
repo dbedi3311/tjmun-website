@@ -56,6 +56,14 @@ hr.botm-line {
     border: 0;
     margin: 20px 0 20px 0;
 }
+hr.botm-line2 {
+    height: 3px;
+    width: 60px;
+    background: #28657c;
+    position: relative;
+    border: 0;
+    margin: 20px auto;
+}
 /**Dropdown***/
 
 /*
@@ -175,6 +183,11 @@ ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover ul.dropdown-menu {
 .awards-content h4{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.awards-content3 h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 .awards-content p{
     margin: 0 0 10px;
@@ -341,6 +354,12 @@ banner
 	min-height: 650px;
 	position: relative;
 }
+#banner-techmungeneral{
+    background: url('../img/committee.png') no-repeat fixed;
+    background-size: cover;
+    min-height: 540px;
+    position: relative;
+}
 #banner-mcmunc2016{
     background: url('../img/mcmunc2016.jpg') no-repeat fixed;
     background-size: cover;
@@ -463,6 +482,10 @@ banner
     background-color: RGBA(13, 70, 83, 0.78);
     min-height: 420px;
 }
+.bg-color3{
+    background-color: RGBA(13, 70, 83, 0.78);
+    min-height: 540px;
+}
 .banner-info{
 	padding-top: 190px;
 }
@@ -478,6 +501,14 @@ banner
 	text-transform: uppercase;
 	padding-bottom:15px; 
 }
+.banner-text2 h1{
+    font-family: 'Candal', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom:15px; 
+    padding-left: 170px;
+    padding-right: 170px;
+}
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
 	padding: 10px 20px;
@@ -485,6 +516,15 @@ banner
 	background-color: #0099c3;
 	border-radius: 3px;
 	color: #fff;
+}
+
+.btn-appoint2, .btn-appoint2:hover, .btn-appoint2:focus{
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #0099c3;
+    border-radius: 3px;
+    color: #fff;
 }
 .overlay-detail a i {
     text-align: center;
