@@ -64,6 +64,14 @@ hr.botm-line2 {
     border: 0;
     margin: 20px auto;
 }
+.topicformat{
+    float: left;
+    padding-left: 12px;
+    color: black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
 /**Dropdown***/
 
 /*
@@ -473,6 +481,18 @@ banner
     background-size: cover;
     min-height: 420px;
     position: relative;
+}
+.committeedescription{
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 1.4;
+    display: inline;
+}
+.committeeimage{
+    display: inline; 
+    float: left; 
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
