@@ -482,6 +482,111 @@ banner
     min-height: 420px;
     position: relative;
 }
+#banner-uncf{
+    background: url('../img/uncf.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-who{
+    background: url('../img/who.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-asean{
+    background: url('../img/asean.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-ytboard{
+    background: url('../img/ytboard.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-unctad{
+    background: url('../img/unctad.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-specpol{
+    background: url('../img/specpol.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-wfp{
+    background: url('../img/wfp.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-parlacen{
+    background: url('../img/parlacen.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-hhs{
+    background: url('../img/hhs.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-jamestown{
+    background: url('../img/jamestown.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-jcccat{
+    background: url('../img/jcccat.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-jccspan{
+    background: url('../img/jccspan.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-siliconvalley{
+    background: url('../img/siliconvalley.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-unsc{
+    background: url('../img/unsc.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-israeliintel{
+    background: url('../img/israeliintel.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-bigpharma{
+    background: url('../img/bigpharma.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+#banner-adhoc{
+    background: url('../img/adhoc.png') no-repeat fixed;
+    background-size: cover;
+    min-height: 420px;
+    position: relative;
+}
+.col-lg-4{
+    min-width: 420px;
+}
 .committeedescription{
     font-size: 18px;
     padding-top: 10px;
