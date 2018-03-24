@@ -599,6 +599,28 @@ banner
     padding-right: 15px;
     padding-bottom: 5px;
 }
+.schedule-head{
+    width: 85%;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+.schedule-info{
+    width: 83%;
+    height: 80px;
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid lightgray;
+}
+.schedule-left{
+    float: left;
+    line-height: 1.6;
+}
+.schedule-right{
+    float: right;
+    line-height: 2.6;
+
+}
 .bg-color{
 	background-color: RGBA(13, 70, 83, 0.78);
 	min-height: 650px;
