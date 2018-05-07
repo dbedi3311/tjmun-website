@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TJMUN Elections</title>
+    <meta name="description" content="TJMUN">
+    <meta name="keywords" content="TJMUN Website">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <!-- =======================================================
+		Theme: TJMUN Website
+		Author: Divjot Bedi
+		TJMUN Facebook: https://www.facebook.com/tjhsstmun/
+    ======================================================= -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css2/base.css" />
+<link rel="stylesheet" href="css2/style.css" />
+    
+<!-- js -->
+<script src="js2/jquery-1.9.1.min.js"></script>
+<script>
+    var width = window.innerWidth;
+    if(width < 768){
+        document.getElementById('cancel').style.display = 'none';
+    }
+
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+</script>
+
+
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  	<!--banner-->
+	<section id="banner-committee" class="banner-committee">
+		<div class="bg-color2">
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container">
+			  	<div class="col-md-12">
+				    <div class="navbar-header" >
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="index.html"><img src="img/logo5.png" class="img-responsive" style="height: 65px; width: 160px; margin-top: -24px;"></a>
+				    </div>
+					<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                      <ul class="nav navbar-nav content clearfix">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown" style="font-size: 15px"><a href="techmun.html">TechMUN</a>
+                                <ul id="cancel" class="sub-menu" style="width: 170px">
+                                    <li><a href="invitation.html">Invitation</a></li>
+                                    <li><a href="committees.html">Committees</a></li>
+                                    <li><a href="registration.html">Registration</a></li>
+                                    <li><a href="costsinfo.html">Costs and Info</a></li>
+                                    <li><a href="positionpapers.html">Position Papers</a></li>
+                                    <li><a href="schedule.html">Schedule</a></li>
+                                    <li><a href="secstaff.html">Secretariat & Staff</a></li>
+                                    <li><a href="charity.html">Charity</a></li>
+                                </ul>
+                            </li>
+
+                                <li class="dropdown" style="font-size: 15px"><a href="committees.html">Committees</a>
+                                    <ul id="cancel" class="sub-menu" style="width: 180px">
+                                        <li class="dropdown"><a href="#" style="width: 180px">General Assemblies</a>
+                                            <ul class="sub-menu" style="margin-left: 50px; width: 180px">
+                                                <li><a href="unctad.html" style="width: 180px">UN Conference on Trade and Development (UNCTAD)</a></li>
+                                                <li><a href="specpol.html" style="width: 180px">Special, Political, and Decolonization Committee (SPECPOL)</a></li>
+                                                <li><a href="wfp.html" style="width: 180px">World Food Programme (WFP)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#" style="width: 180px">Specialized Agencies</a>
+                                            <ul class="sub-menu" style="margin-left: 50px; width: 180px">
+                                                <li><a href="parlacen.html" style="width: 180px">Central American Parliament (PARLACEN)</a></li>
+                                                <li><a href="hhs.html" style="width: 180px">US Health and Human Services, 2018</a></li>
+                                                <li><a href="jamestown.html" style="width: 180px">Jamestown, 1619</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="" style="width: 180px">Crisis Simulations</a>
+                                            <ul class="sub-menu" style="margin-left: 50px; width: 180px">
+                                                <li><a href="unsc.html" style="width: 180px">UNSC: First Contact</a></li>
+                                                <li><a href="siliconvalley.html" style="width: 180px">Silicon Valley, 2018</a></li>
+                                                <li><a href="jcccat.html" style="width: 180px">JCC Catalan Secession: Catalan Independence Front</a></li>
+                                                <li><a href="jccspan.html" style="width: 180px">JCC Catalan Secession: Spanish Cabinet</a></li>
+                                                <li><a href="israeliintel.html" style="width: 180px">Israeli Intelligence Branch, 1960</a></li>
+                                                <li><a href="bigpharma.html" style="width: 180px">Big Pharma, 2018</a></li>
+                                                <li><a href="adhoc.html" style="width: 180px">Ad-Hoc Committee of the Secretary General</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="" style="width: 180px">Middle School</a>
+                                            <ul class="sub-menu" style="margin-left: 50px; width: 180px">
+                                                <li><a href="uncf.html" style="width: 180px">UN Children's Fund</a></li>
+                                                <li><a href="who.html" style="width: 180px">World Health Organization (WHO)</a></li>
+                                                <li><a href="asean.html" style="width: 180px">Association of Southeast Asian Nations (ASEAN)</a></li>
+                                                <li><a href="youtubeboard.html" style="width: 180px">YouTube Board of Directors</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown" style="font-size: 15px"><a href="#">Awards</a>
+                                    <ul id="cancel" class="sub-menu" style="width: 120px">
+                                        <li class="dropdown"><a href="#" style="width: 120px">2017-2018</a>
+                                            <ul class="sub-menu" style="margin-left: -5px; width: 150px">
+                                                <li><a href="mcmunc2017.html" style="width: 150px">MCMUNC 2017</a></li>
+                                                <li><a href="wmhsmun2017.html" style="width: 150px">WMHSMUN 2017</a></li>
+                                                <li><a href="chmun2018.html" style="width: 150px">CHMUN 2018</a></li>
+                                                <li><a href="naimun2018.html" style="width: 150px">NAIMUN 2018</a></li>
+                                                <li><a href="wamunc2018.html" style="width: 150px">WAMUNC 2018</a></li>
+                                                <li><a href="vimunc2018.html" style="width: 150px">VIMUNC 2018</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="" style="width: 120px">2016-2017</a>
+                                            <ul class="sub-menu" style="margin-left: -5px; width: 150px">
+                                                <li><a href="mcmunc2016.html" style="width: 150px">MCMUNC 2016</a></li>
+                                                <li><a href="wmhsmun2016.html" style="width: 150px">WMHSMUN 2016</a></li>
+                                                <li><a href="chmun2017.html" style="width: 150px">CHMUN 2017</a></li>
+                                                <li><a href="gfmunc2017.html" style="width: 150px">GFMUNC 2017</a></li>
+                                                <li><a href="ilmunc2017.html" style="width: 150px">ILMUNC 2017</a></li>
+                                                <li><a href="wamunc2017.html" style="width: 150px">WAMUNC 2017</a></li>
+                                                <li><a href="vimunc2017.html" style="width: 150px">VIMUNC 2017</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="" style="width: 120px">2015-2016</a>
+                                            <ul class="sub-menu" style="margin-left: -5px; width: 150px">
+                                                <li><a href="mcmunc2015.html" style="width: 150px">MCMUNC 2015</a></li>
+                                                <li><a href="wmhsmun2015.html" style="width: 150px">WMHSMUN 2015</a></li>
+                                                <li><a href="chmun2016.html" style="width: 150px">CHMUN 2016</a></li>
+                                                <li><a href="gfmunc2016.html" style="width: 150px">GFMUNC 2016</a></li>
+                                                <li><a href="ilmunc2016.html" style="width: 150px">ILMUNC 2016</a></li>
+                                                <li><a href="naimun2016.html" style="width: 150px">NAIMUN 2016</a></li>
+                                                <li><a href="sfsmun2016.html" style="width: 150px">SFSMUN 2016</a></li>
+                                                <li><a href="vimunc2016.html" style="width: 150px">VIMUNC 2016</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="" style="width: 120px">2014-2015</a>
+                                            <ul class="sub-menu" style="margin-left: -5px; width: 150px">
+                                                <li><a href="wmhsmun2014.html" style="width: 150px">WMHSMUN 2014</a></li>
+                                                <li><a href="chmun2015.html" style="width: 150px">CHMUN 2015</a></li>
+                                                <li><a href="ilmunc2015.html" style="width: 150px">ILMUNC 2015</a></li>
+                                                <li><a href="sfsmun2015.html" style="width: 150px">SFSMUN 2015</a></li>
+                                                <li><a href="wamunc2015.html" style="width: 150px">WAMUNC 2015</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="leadership.html">Leadership</a></li>
+                                <li><a href="mun101.html">MUN 101</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                                    </ul>
+                               </li>
+                         </ul>
+                    </div>
+				</div>
+			  </div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<div class="banner-text text-center">
+							<h1 class="white">TJMUN Elections</h1>
+						</div>
+						<div class="overlay-detail text-center">
+			               <a href="#service"><i class="fa fa-angle-down"></i></a>
+			             </div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ banner-->
+
+
+	<!--service-->
+	<section id="service" class="section-padding">
+		<div class="container">
+			<div class="row">
+				
+			       <div style="visibility: visible; padding-bottom: 40px;" class="more-features-box">
+			          
+
+			       		<!--<div class="more-features-box-text">
+			            <div class="more-features-box-text-description" style="padding-bottom: 300px;">
+			            	<ul class="awards-content2">
+				            <li><h4 style="font-size: 20px">Committees Coming Soon!</h4></li>
+				            	<ul>
+				            	<ul>
+				            </ul>
+				        </div>
+			          </div> -->
+
+
+			          <div class="more-features-box-text">
+			            <div class="more-features-box-text-description" style="margin-left: 5%;">
+			            	<ul class="awards-content2">
+                                <h2>Election Speeches</h2>
+                                <hr class="botm-line"></hr>
+				                
+                                <div class="col-xs-6 col-sm-6 col-lg-6">
+                    <div class="service-info">
+                        
+                        <div class="icon-info">
+                            <h3><u>Secretary General</u></h3>
+
+                            <div class="video">
+                            <iframe src="https://drive.google.com/file/d/1pcjCinygXgPl2CGyxZzywobOxujZn5Hb/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Kiran Ganeshan</h4>
+                            
+                            <div class="video">
+                                <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1Qq-WYGV7Kztj2Kr_wUMKpn6r-7Jl3mWR/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Atharv Gupta</h4>
+
+
+                        </div>
+                    </div>
+                    <div class="service-info">
+                        
+                        <div class="icon-info">
+                            <h3><u>Arbitrator</u></h3>
+
+                            <div class="video">
+                            <iframe src="https://drive.google.com/file/d/1XiZyu1-KWouGijhS5UXvAqO3yKuk5ZzG/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Divjot Bedi</h4>
+
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1Osfx2Iv_w_6CM7Lucbyojj8zHdhQjCLX/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Philip Pan</h4>
+
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-lg-6">
+                    <div class="service-info">
+                        
+                        <div class="icon-info">
+                            <h3><u>Senator</u></h3>
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1NklUFYv3bg1QiU5MfzzqDthZxwUB9h0v/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Vikrant Magadi</h4>
+
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1BqBfecjb-4zDCKnAOvQ9HNtgQ6McwwBc/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Kathryn Yang</h4>
+
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1Cj98x1Izne8-fyDVzaTf0DqsyAFwGiOU/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Yash Shekar</h4>
+
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1IXsbnhweaDFp_3-q72V7ajqQnNgcnzzd/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Kotryna Vismante</h4>
+
+                            <div class="video">
+                            <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1ry2dbVEiCTD3ZJmI0WJCX5nTA8j5hRLK/preview" width="93%" height="100%"></iframe>
+                            </div>
+                            <h4 style="font-size: 20px;">Daniel Li</h4>
+
+
+                        </div>
+                    </div>
+                 
+                </div>
+
+
+                                
+				            </ul>
+
+
+				        </div>
+
+			          </div>
+			          
+
+			        </div>
+
+			    </div>
+                <div class="more-features-box-text">
+                        <div class="more-features-box-text-description" style="margin-left: 0%;">
+                           <h2>Election Information</h2>
+                                <hr class="botm-line"></hr>
+
+                            <p style="font-size: 20px; line-height: 1.3;">Elections will take place during lunch (NOT JLC) in Sra. Pou's room (room 71) from Monday, May 7th to Friday, May 11th. A Senior Secretariat member and Sra. Pou NEED to be in the room for you to be able to vote. Ballots will be kept in the room by Sra. Pou and will be collected for counting on Friday, May 11th at 12:40 PM. Not late ballots will be accepted or counted.</p>
+                    </div>
+                </div>
+		</div>
+	</section>
+	<!--/ service-->
+
+
+	<!--footer-->
+	<footer id="footer">
+		<div class="top-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 marb20">
+							<div class="ftr-tle">
+								<h4 class="white no-padding">About Us</h4>
+							</div>
+							<div class="info-sec">
+								<p>TJMUN is a club associated with Model United Nations competitions aimed at training and enhancing delegates' performance.</p>
+							</div>
+					</div>
+					<div class="col-md-4 col-sm-4 marb20">
+						<div class="ftr-tle">
+							<h4 class="white no-padding">Quick Links</h4>
+						</div>
+						<div class="info-sec">
+							<ul class="quick-info">
+								<li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
+								<li><a href="invitation.html"><i class="fa fa-circle"></i>TechMUN</a></li>
+								<li><a href="mun101.html"><i class="fa fa-circle"></i>MUN 101</a></li>
+								<li><a href="calendar.html"><i class="fa fa-circle"></i>Calendar</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 marb20">
+						<div class="ftr-tle">
+							<h4 class="white no-padding">Follow us</h4>
+						</div>
+						<div class="info-sec">
+							<ul class="social-icon">
+								<li class="bglight-blue"><a style="color: #fff;" href="https://www.facebook.com/tjhsstmun/"><i class="fa fa-facebook"></i></a></li>
+								<li class="bgred"><i class="fa fa-google-plus"></i></li>
+								<li class="bgdark-blue"><i class="fa fa-linkedin"></i></li>
+								<li class="bglight-blue"><i class="fa fa-twitter"></i></li>
+							</ul>
+						</div>
+					</div>
+						<div class="credits" style="padding-left: 50%;">
+                         
+                            <p style="color: white">Along with <a href="https://bootstrapmade.com/" style="color: #00c18a">BootstrapMade</a></p>
+                        </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/ footer-->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
+    
+  </body>
+</html>

@@ -989,6 +989,10 @@ footer
     color: #0cb8b6;
     text-transform: none;
 }
+.video
+{
+    height: 300px;
+}
 @media (min-width: 768px)   {
         
 
@@ -1037,5 +1041,8 @@ footer
             padding-bottom: 16px;
             color: #fff;
             font-weight: 600;
+    }
+    .video{
+        height: 120px;
     }
 }
